@@ -1,3 +1,13 @@
+/*
+.color1 {color: #060606;}
+.color2 {color: #262a34;}
+.color3 {color: #5c6277;}
+.color4 {color: #9da3c3;}
+.color5 {color: #dfe2ed;}
+*/
+
+
+
 /* Reset básico */
 * {
   margin: 0;
@@ -11,35 +21,37 @@ body {
   min-height: 100vh;
   font-family: Arial, sans-serif;
   padding: 20px;
-  background-color: #f8f9fa;
+  background: -webkit-linear-gradient(90deg, #bdffbf,#ffe1d1,#f4b3ff,#bdf5ff);
+  background: linear-gradient(90deg, #bdffbf,#ffe1d1,#f4b3ff,#bdf5ff);
 }
 
 header {
-  background: #333;
+  background: linear-gradient(90deg, #a7fdaa,#ffcdb2,#ee8fff,#87edff);
   color: white;
   padding: 1rem;
   text-align: center;
 }
 
 nav {
-  background: #f4f4f4;
+  background: #5c627762;
   padding: 1rem;
 }
 
 main {
   display: flex;
   flex: 1;
-  background: white;
+  background: #9da3c354;
   padding: 2rem;
   border-radius: 8px;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
 }
 
 aside {
-  background: #f4f4f4;
+  background: #5c62775e;
   padding: 1rem;
   border-left: 1px solid #ccc;
 }
+
 a {
   color: lightskyblue;
   text-decoration: none;
@@ -69,7 +81,7 @@ a {
 }
 
 footer {
-  background: #333;
+  background: linear-gradient(90deg, #a7fdaa,#ffcdb2,#ee8fff,#87edff);
   color: white;
   text-align: center;
   padding: 1rem;
@@ -78,14 +90,13 @@ footer {
 
 /* Indicadores de etiquetas semánticas */
 nav {
-  border: 3px solid green;
+  border: 3px solid #bdffbf;
 }
 
 main {
-  border: 3px solid blue;
+  border: 3px solid #f4b3ff;
 }
 
 aside {
-  border: 3px solid orange;
+  border: 3px solid #bdf5ff;
 }
-
